@@ -5,7 +5,7 @@ import java.util.TreeMap;
 public class RomanConversion {
 
     public static int romanToInteger(String num) {
-        Map<Character, Integer> ht = RomanCalculatorUtility.hashMapValues();
+        Map<Character, Integer> ht = RomanCalculatorUtility.getHt();
         num=num.toUpperCase();
         int intNum = 0;
         int prev = 0;
@@ -22,7 +22,7 @@ public class RomanConversion {
 
     }
     public static String toRoman(int number) {
-        TreeMap<Integer,String> map=RomanCalculatorUtility.treeMapValues();
+        TreeMap<Integer,String> map=RomanCalculatorUtility.getMap();
         int l =  map.floorKey(number);
         if ( number == l ) {
             return map.get(number);
