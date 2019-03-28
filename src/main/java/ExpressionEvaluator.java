@@ -14,10 +14,10 @@ public class ExpressionEvaluator implements IExpressionEvaluator {
                 String[] validNumerals = rc.validNumeral();
                 int flag = rvc.validate(numeral1, validNumerals);
                 int flag1 = rvc.validate(numeral2, validNumerals);
-                if (flag == 1 && flag1 == 1) {
-                    RomanToIntegerConversion rti = new RomanToIntegerConversion();
-                    int num1 = rti.rtoi(numeral1);
-                    int num2 = rti.rtoi(numeral2);
+                if (flag == 1 && flag1 == 1)
+                {
+                    int num1 = RomanConversion.romanToInteger(numeral1);
+                    int num2 =  RomanConversion.romanToInteger(numeral2);
                     arr[0] = num1;
                     arr[1] = num2;
                 }

@@ -68,8 +68,8 @@ public class RomanNumeralCalc {
         RomanNumeralCalc rnc = new RomanNumeralCalc();
         try {
             int finalValue = rnc.calculate(num1, num2, operator);
-            IntegerToRomanConversion irc = new IntegerToRomanConversion();
-            finalRomanValue = irc.toRoman(finalValue);
+
+            finalRomanValue = RomanConversion.toRoman(finalValue);
 
         } catch (Exception e) {
             System.out.println("The following error occurred " + e);
