@@ -5,7 +5,7 @@ public class RomanCalculatorUtility {
 
         static final TreeMap<Integer, String> map = new TreeMap<Integer, String>();
 
-    public static TreeMap<Integer, String> getMap() {
+    public static TreeMap<Integer, String> getRomanFromIntegerTreeMap() {
         return map;
     }
 
@@ -31,7 +31,7 @@ public class RomanCalculatorUtility {
 
      static final Map<Character, Integer> ht = new HashMap<Character, Integer>();
 
-    public static Map<Character, Integer> getHt() {
+    public static Map<Character, Integer> getIntegerFromRomanHahMap() {
         return ht;
     }
 

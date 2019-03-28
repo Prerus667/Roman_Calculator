@@ -1,6 +1,6 @@
-public class ExpressionEvaluator implements IExpressionEvaluator {
+public class UserExpressionEvaluator implements IUserExpressionEvaluator {
     @Override
-    public int[] stringEvaluate(String exp) {
+    public int[] userInputExpressionConversion(String exp) {
         // returns the 2 integers
         int[] arr = new int[2];
         for (int i = 0; i < exp.length(); i++)
@@ -9,15 +9,14 @@ public class ExpressionEvaluator implements IExpressionEvaluator {
                 String numeral1 = exp.substring(0, i);
                 String numeral2 = exp.substring(i + 1);
 
-                RomanNumeralValidation rvc = new RomanNumeralValidation();
-                ValidNumeralEvaluator rc = new ValidNumeralEvaluator();
-                String[] validNumerals = rc.validNumeral();
-                int flag = rvc.validate(numeral1, validNumerals);
-                int flag1 = rvc.validate(numeral2, validNumerals);
-                if (flag == 1 && flag1 == 1)
+                UserInputValidation rvc = new UserInputValidation();
+
+                boolean flag = rvc.validateRomanLiterals(numeral1);
+                boolean flag1 = rvc.validateRomanLiterals(numeral2);
+                if (flag == true && flag1 == true)
                 {
-                    int num1 = RomanConversion.romanToInteger(numeral1);
-                    int num2 =  RomanConversion.romanToInteger(numeral2);
+                    int num1 = RomanConversion.romanToIntegerConversion(numeral1);
+                    int num2 =  RomanConversion.romanToIntegerConversion(numeral2);
                     arr[0] = num1;
                     arr[1] = num2;
                 }
@@ -26,7 +25,8 @@ public class ExpressionEvaluator implements IExpressionEvaluator {
         return arr;
     }
 
-    public char operatorExpressionn(String exp) {
+
+    public char operatorExtraction(String exp) {
         char operator ='+';
 
         for (int i = 0; i < exp.length(); i++)
@@ -37,5 +37,7 @@ public class ExpressionEvaluator implements IExpressionEvaluator {
             }
         return operator;
     }
+
+
 }
 

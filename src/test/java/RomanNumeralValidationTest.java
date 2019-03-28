@@ -4,26 +4,24 @@ public class RomanNumeralValidationTest extends TestCase {
 
     public void testValidate() {
 
-        RomanNumeralValidation rnv=new RomanNumeralValidation();
-        ValidNumeralEvaluator vne=new ValidNumeralEvaluator();
-        String validNumerals[]=vne.validNumeral();
+        UserInputValidation rnv=new UserInputValidation();
         //Test case 1
-         int flag=rnv.validate("DM",validNumerals);
-         assertEquals(flag,0);
+         boolean flag=rnv.validateRomanLiterals("DM");
+         assertEquals(flag,false);
         //Test case 2
-        int flag1=rnv.validate("DD",validNumerals);
-        assertEquals(flag1,0);
+        boolean flag1=rnv.validateRomanLiterals("DD");
+        assertEquals(flag1,false);
         //Test case 3
-        int flag2=rnv.validate("XXXX",validNumerals);
-        assertEquals(flag2,0);
+        boolean flag2=rnv.validateRomanLiterals("XXXX");
+        assertEquals(flag2,false);
         //Test case 4
-        int flag3=rnv.validate("IIII",validNumerals);
-        assertEquals(flag3,0);
+        boolean flag3=rnv.validateRomanLiterals("IIII");
+        assertEquals(flag3,false);
         //Test case 5
-        int flag4=rnv.validate("XL",validNumerals);
-        assertEquals(flag4,1);
+        boolean flag4=rnv.validateRomanLiterals("XL");
+        assertEquals(flag4,true);
         //Test case 6
-        int flag5=rnv.validate("CMCX",validNumerals);
-        assertEquals(flag5,0);
+        boolean flag5=rnv.validateRomanLiterals("CMCX");
+        assertEquals(flag5,false);
     }
 }

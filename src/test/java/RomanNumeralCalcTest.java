@@ -4,7 +4,7 @@ public class RomanNumeralCalcTest extends TestCase {
 
     public void testCalculate() {
 
-        RomanNumeralCalc rnc=new RomanNumeralCalc();
+        RomanCalculatorImpl rnc=new RomanCalculatorImpl();
         //Test case 1
         int finalVal=rnc.calculate(10,40,'+');
         assertEquals(finalVal,50);
