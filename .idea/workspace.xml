@@ -1,44 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="CUSTOM_SCOPE_NAME" value="Module 'Roman_Calculator'" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="59a08389-9224-463c-b612-70e71c89f474" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/IRomanCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IUserExpressionEvaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/IUserInputValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UserInputValidation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UserExpressionEvaluator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExpressionEvaluator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserExpressionEvaluator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IExpressionEvaluator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IRomanNumeralValidation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/IValidNumeralEvaluator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RomanCalculatorMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RomanCalculatorMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RomanCalculatorUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RomanCalculatorUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RomanConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RomanConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RomanNumeralCalc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RomanCalculatorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RomanNumeralValidation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ValidNumeralEvaluator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExpressionEvaluatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ExpressionEvaluatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/IntegerToRomanConversionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IntegerToRomanConversionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RomanNumeralCalcTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RomanNumeralCalcTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RomanNumeralValidationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RomanNumeralValidationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RomanToIntegerConversionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RomanToIntegerConversionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ValidNumeralEvaluatorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ExpressionEvaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ExpressionEvaluator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IExpressionEvaluator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IExpressionEvaluator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IRomanNumeralValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/IRomanNumeralValidation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/IValidNumeralEvaluator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RomanCalculatorMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RomanCalculatorMain.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/RomanCalculatorUtility.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RomanCalculatorUtility.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/RomanConversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RomanConversion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RomanNumeralCalc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RomanNumeralValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RomanNumeralValidation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ValidNumeralEvaluator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ExpressionEvaluatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ExpressionEvaluatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/IntegerToRomanConversionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/IntegerToRomanConversionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RomanNumeralCalcTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RomanNumeralCalcTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RomanNumeralValidationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RomanNumeralValidationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RomanToIntegerConversionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RomanToIntegerConversionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ValidNumeralEvaluatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UserExpressionEvaluator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UserInput.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/RomanCalculatorMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            <state relative-caret-position="136">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -67,8 +39,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/RomanConversion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="372">
+              <caret line="30" column="77" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UserInputValidation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-229">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/IUserExpressionEvaluator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -76,14 +66,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/UserExpressionEvaluator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="199">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ExpressionEvaluatorTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/RomanCalculatorUtility.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/IUserInputValidation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/UserInputValidationTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -92,66 +103,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/IUserExpressionEvaluator.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/UserInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="216">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/RomanCalculatorUtility.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-31">
-              <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/UserInputValidation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/IUserInputValidation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/IRomanCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/RomanCalculatorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-              <folding>
-                <element signature="e#594#595#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#739#740#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="780">
+              <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -162,8 +126,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit3 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -171,10 +135,18 @@
     <findStrings>
       <find>rtoi</find>
       <find>irc</find>
+      <find>number1</find>
+      <find>number2</find>
+      <find>num2</find>
+      <find>exp</find>
     </findStrings>
     <replaceStrings>
       <replace>romanToInteger</replace>
       <replace>RomanConversion</replace>
+      <replace>firstNumber</replace>
+      <replace>SecondNumber</replace>
+      <replace>secondNumber</replace>
+      <replace>expression</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -212,28 +184,34 @@
         <option value="$PROJECT_DIR$/src/main/java/IntegerToRomanConversion.java" />
         <option value="$PROJECT_DIR$/src/main/java/RomanToIntegerConversion.java" />
         <option value="$PROJECT_DIR$/src/main/java/ValidNumeralEvaluator.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RomanToIntegerConversionTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/IntegerToRomanConversionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/IRomanCalculator.java" />
         <option value="$PROJECT_DIR$/src/main/java/RomanNumeralCalc.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ExpressionEvaluatorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/IRomanNumeralValidation.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RomanNumeralValidationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/RomanNumeralValidation.java" />
         <option value="$PROJECT_DIR$/src/main/java/ExpressionEvaluator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IRomanCalculator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ExpressionEvaluatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/IntegerToRomanConversionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RomanNumeralCalcTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RomanNumeralValidationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RomanToIntegerConversionTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/UserInputValidationTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UserInputValidation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RomanCalculatorImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RomanCalculatorMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IUserExpressionEvaluator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/IUserInputValidation.java" />
         <option value="$PROJECT_DIR$/src/main/java/RomanCalculatorUtility.java" />
         <option value="$PROJECT_DIR$/src/main/java/RomanConversion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UserInputValidation.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UserInput.java" />
         <option value="$PROJECT_DIR$/src/main/java/UserExpressionEvaluator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/RomanCalculatorImpl.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1943" />
+    <option name="height" value="1043" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -241,8 +219,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,8 +266,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554975659810" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555059419063" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../workspace/pm-service" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -315,7 +294,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RomanCalculatorMain">
+  <component name="RunManager" selected="JUnit.UserInputValidationTest.testValidateUserInput">
     <configuration name="RomanCalculatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RomanCalculatorMain" />
       <module name="Roman_Calculator" />
@@ -339,25 +318,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RomanNumeralCalcTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Roman_Calculator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RomanNumeralCalcTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RomanNumeralValidationTest.testValidate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Roman_Calculator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RomanNumeralValidationTest" />
       <option name="METHOD_NAME" value="testValidate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInputValidationTest.testValidateUserInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Roman_Calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserInputValidationTest" />
+      <option name="METHOD_NAME" value="testValidateUserInput" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -381,11 +356,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserInputValidationTest.testValidateUserInput" />
         <item itemvalue="Application.RomanCalculatorMain" />
         <item itemvalue="JUnit.RomanNumeralValidationTest.testValidate" />
         <item itemvalue="JUnit.ExpressionEvaluatorTest.testStringEvaluate" />
         <item itemvalue="JUnit.ValidNumeralEvaluatorTest.testValidNumeral" />
-        <item itemvalue="JUnit.RomanNumeralCalcTest" />
       </list>
     </recent_temporary>
   </component>
@@ -403,11 +378,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RomanNumeralValidationTest_testValidate - 2019.04.10 at 11h 59m 59s.xml">
-      <configuration name="RomanNumeralValidationTest.testValidate" configurationId="JUnit" />
+    <history-entry file="UserInputValidationTest_testValidateUserInput - 2019.04.11 at 13h 11m 25s.xml">
+      <configuration name="UserInputValidationTest.testValidateUserInput" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RomanNumeralValidationTest_testValidate - 2019.04.10 at 12h 00m 22s.xml">
-      <configuration name="RomanNumeralValidationTest.testValidate" configurationId="JUnit" />
+    <history-entry file="UserInputValidationTest_testValidateUserInput - 2019.04.11 at 13h 11m 47s.xml">
+      <configuration name="UserInputValidationTest.testValidateUserInput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInputValidationTest_testValidateUserInput - 2019.04.11 at 13h 12m 01s.xml">
+      <configuration name="UserInputValidationTest.testValidateUserInput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInputValidationTest_testValidateUserInput - 2019.04.11 at 13h 12m 51s.xml">
+      <configuration name="UserInputValidationTest.testValidateUserInput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInputValidationTest_testValidateUserInput - 2019.04.11 at 13h 12m 59s.xml">
+      <configuration name="UserInputValidationTest.testValidateUserInput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInputValidationTest_testValidateUserInput - 2019.04.11 at 13h 13m 06s.xml">
+      <configuration name="UserInputValidationTest.testValidateUserInput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInputValidationTest_testValidateUserInput - 2019.04.11 at 13h 13m 23s.xml">
+      <configuration name="UserInputValidationTest.testValidateUserInput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInputValidationTest_testValidateUserInput - 2019.04.11 at 15h 38m 17s.xml">
+      <configuration name="UserInputValidationTest.testValidateUserInput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInputValidationTest_testValidateUserInput - 2019.04.11 at 15h 38m 47s.xml">
+      <configuration name="UserInputValidationTest.testValidateUserInput" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserInputValidationTest_testValidateUserInput - 2019.04.11 at 15h 38m 55s.xml">
+      <configuration name="UserInputValidationTest.testValidateUserInput" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -420,19 +419,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33102345" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29878542" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Dependency Viewer" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.37378114" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15276273" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4724689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -440,7 +440,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.1722913" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3268206" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.3250444" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -530,27 +530,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/IIntegerToRomanConversion.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/RomanToIntegerConversion.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/IntegerToRomanConversion.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/RomanToIntegerConversionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/IntegerToRomanConversionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RomanNumeralCalcTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="569">
@@ -558,112 +537,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ValidNumeralEvaluator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ValidNumeralEvaluator.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/IValidNumeralEvaluator.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/ValidNumeralEvaluatorTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/IRomanCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IValidNumeralEvaluator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ExpressionEvaluatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="395">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ValidNumeralEvaluatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/IntegerToRomanConversionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RomanNumeralCalcTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RomanNumeralValidationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ExpressionEvaluatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/RomanToIntegerConversionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UserInputValidationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RomanConversion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UserInputValidation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state relative-caret-position="-229">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IRomanCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/RomanConversion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IUserExpressionEvaluator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/IUserInputValidation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RomanCalculatorMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state relative-caret-position="372">
+          <caret line="30" column="77" selection-start-line="30" selection-start-column="77" selection-end-line="30" selection-end-column="77" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RomanCalculatorUtility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-31">
-          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
+        <state relative-caret-position="230">
+          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UserExpressionEvaluator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/RomanCalculatorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
-          <folding>
-            <element signature="e#594#595#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="780">
+          <caret line="63" column="1" lean-forward="true" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IUserInputValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/IUserExpressionEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UserExpressionEvaluator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UserInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RomanCalculatorMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>

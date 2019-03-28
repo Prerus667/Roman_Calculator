@@ -3,47 +3,56 @@ import java.util.Map;
 import java.util.TreeMap;
 public class RomanCalculatorUtility {
 
-        static final TreeMap<Integer, String> map = new TreeMap<Integer, String>();
+        static final TreeMap<Integer, String> romanFromIntegerMap = new TreeMap<Integer, String>();
 
+    /**
+     * This method is used to return the TreeMap<Integer,String>
+     * @return romanFromIntegerMap TreeMap<Integer,String>
+     */
     public static TreeMap<Integer, String> getRomanFromIntegerTreeMap() {
-        return map;
+        return romanFromIntegerMap;
     }
 
     static
         {
-            map.put(4000, "MMMM");
-            map.put(3000, "MMM");
-            map.put(2000, "MM");
-            map.put(1000, "M");
-            map.put(900, "CM");
-            map.put(500, "D");
-            map.put(400, "CD");
-            map.put(100, "C");
-            map.put(90, "XC");
-            map.put(50, "L");
-            map.put(40, "XL");
-            map.put(10, "X");
-            map.put(9, "IX");
-            map.put(5, "V");
-            map.put(4, "IV");
-            map.put(1, "I");
+            romanFromIntegerMap.put(4000, "MMMM");
+            romanFromIntegerMap.put(3000, "MMM");
+            romanFromIntegerMap.put(2000, "MM");
+            romanFromIntegerMap.put(1000, "M");
+            romanFromIntegerMap.put(900, "CM");
+            romanFromIntegerMap.put(500, "D");
+            romanFromIntegerMap.put(400, "CD");
+            romanFromIntegerMap.put(100, "C");
+            romanFromIntegerMap.put(90, "XC");
+            romanFromIntegerMap.put(50, "L");
+            romanFromIntegerMap.put(40, "XL");
+            romanFromIntegerMap.put(10, "X");
+            romanFromIntegerMap.put(9, "IX");
+            romanFromIntegerMap.put(5, "V");
+            romanFromIntegerMap.put(4, "IV");
+            romanFromIntegerMap.put(1, "I");
         }
 
-     static final Map<Character, Integer> ht = new HashMap<Character, Integer>();
+     static final Map<Character, Integer> integerFromRomanMap = new HashMap<Character, Integer>();
 
+    /**
+     * The following is used to return the map containing character as key and Integer as value
+     * @param
+     * @return integerFromRomanMap
+     */
     public static Map<Character, Integer> getIntegerFromRomanHahMap() {
-        return ht;
+        return integerFromRomanMap;
     }
 
     static
         {
-        ht.put('I', 1);
-        ht.put('X', 10);
-        ht.put('C', 100);
-        ht.put('M', 1000);
-        ht.put('V', 5);
-        ht.put('L', 50);
-        ht.put('D', 500);
+            integerFromRomanMap.put('I', 1);
+            integerFromRomanMap.put('X', 10);
+            integerFromRomanMap.put('C', 100);
+            integerFromRomanMap.put('M', 1000);
+            integerFromRomanMap.put('V', 5);
+            integerFromRomanMap.put('L', 50);
+            integerFromRomanMap.put('D', 500);
 
     }
 }

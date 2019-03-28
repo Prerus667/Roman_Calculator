@@ -3,13 +3,19 @@ import java.util.TreeMap;
 
 public class RomanConversion {
 
-    public static int romanToIntegerConversion(String num) {
+    /**
+     * This method is used to return the converted integer value
+     *
+     * @param romanNumeral
+     * @return intNum int
+     */
+    public static int romanToIntegerConversion(String romanNumeral) {
         Map<Character, Integer> ht = RomanCalculatorUtility.getIntegerFromRomanHahMap();
-        num=num.toUpperCase();
+        romanNumeral=romanNumeral.toUpperCase();
         int intNum = 0;
         int prev = 0;
-        for (int i = num.length() - 1; i >= 0; i--) {
-            int temp = ht.get(num.charAt(i));
+        for (int i = romanNumeral.length() - 1; i >= 0; i--) {
+            int temp = ht.get(romanNumeral.charAt(i));
             if (temp < prev)
                 intNum -= temp;
             else
@@ -20,6 +26,11 @@ public class RomanConversion {
 
 
     }
+
+    /**
+     * This method is used to return the roman numeral from the integer value
+     * @param number
+     */
     public static String integerToRomanConversion(int number) {
         TreeMap<Integer,String> map=RomanCalculatorUtility.getRomanFromIntegerTreeMap();
         int l =  map.floorKey(number);
